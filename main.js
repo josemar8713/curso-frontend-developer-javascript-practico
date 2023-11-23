@@ -7,6 +7,9 @@ const menumobile=document.querySelector (".mobile-menu")
 const btncarrito =document.querySelector(".navbar-shopping-cart") 
 const aside =document.querySelector(".product-detail")
 
+
+
+
 navamail.addEventListener("click",toggleCorreoclick);
 
 btnhamburguesa.addEventListener("click",toggleclicham);
@@ -28,4 +31,5 @@ function toggleclickproductos(){
     aside.classList.toggle("inactive")
     menumobile.classList.add("inactive")
 }
- 
+
+
